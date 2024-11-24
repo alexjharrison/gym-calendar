@@ -33,25 +33,25 @@ const calendarApp = createCalendar({
 </script>
 
 <template>
+    <ScheduleXCalendar style="height: 85vh" :calendar-app="calendarApp">
+        <!-- <template #monthGridEvent="{ calendarEvent }">
+            <div class="sx__month-grid-day__events">
+                <div draggable="false" data-event-id="8" tabindex="0" role="button"
+                class="sx__event sx__month-grid-event sx__month-grid-cell"
+                :style="`grid-row: 1; width: calc(100% - 9px); border-left: 4px solid var(--sx-color-${calendarEvent.calendarId}); color: var(--sx-color-on-${calendarEvent.calendarId}-container); background-color: var(--sx-color-${calendarEvent.calendarId}-container);`">
+                <div class="sx__month-grid-event-time">{{ calendarEvent.start.split(' ')[1] }}</div>
+                <div class="sx__month-grid-event-title">{{ calendarEvent.title }}</div>
+            </div>
+        </div>
+    </template> -->
+
+    </ScheduleXCalendar>
     <div class="legend">
         <span class="legend-item" :style="`background-color: var(--sx-color-${calendar.colorName}-container)`"
             v-for="calendar in calendars" :key="calendar.colorName">
             {{ calendar.colorName[0].toUpperCase() + calendar.colorName.slice(1) }}
         </span>
     </div>
-    <ScheduleXCalendar style="height: 85vh" :calendar-app="calendarApp">
-        <!-- <template #monthGridEvent="{ calendarEvent }">
-            <div class="sx__month-grid-day__events">
-                <div draggable="false" data-event-id="8" tabindex="0" role="button"
-                    class="sx__event sx__month-grid-event sx__month-grid-cell"
-                    :style="`grid-row: 1; width: calc(100% - 9px); border-left: 4px solid var(--sx-color-${calendarEvent.calendarId}); color: var(--sx-color-on-${calendarEvent.calendarId}-container); background-color: var(--sx-color-${calendarEvent.calendarId}-container);`">
-                    <div class="sx__month-grid-event-time">{{ calendarEvent.start.split(' ')[1] }}</div>
-                    <div class="sx__month-grid-event-title">{{ calendarEvent.title }}</div>
-                </div>
-            </div>
-        </template> -->
-
-    </ScheduleXCalendar>
 </template>
 
 <style>
