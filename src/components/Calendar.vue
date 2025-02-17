@@ -12,11 +12,12 @@ import { formatDate } from '../utils/time'
 
 
 const monthGrid = createViewMonthGrid()
+const weekGrid = createViewWeek()
 
 const calendarApp = createCalendar({
     selectedDate: formatDate(new Date()).split(' ')[0],
-    views: [monthGrid, createViewMonthAgenda(), createViewWeek(), createViewDay()],
-    defaultView: monthGrid.name,
+    views: [monthGrid, createViewMonthAgenda(), weekGrid, createViewDay()],
+    defaultView: weekGrid.name,
     events,
     calendars,
     isDark: true,
