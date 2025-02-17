@@ -22,6 +22,9 @@ const calendarApp = createCalendar({
     calendars,
     isDark: true,
     firstDayOfWeek: 0,
+    weekOptions: {
+        gridHeight: 600
+    },
     dayBoundaries: {
         start: '06:00',
         end: '11:00',
