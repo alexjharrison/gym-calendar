@@ -23,8 +23,8 @@ const calendarApp = createCalendar({
     isDark: true,
     firstDayOfWeek: 0,
     dayBoundaries: {
-        start: '05:00',
-        end: '20:00',
+        start: '06:00',
+        end: '11:00',
     },
     monthGridOptions: {
         nEventsPerDay: 8
