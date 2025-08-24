@@ -1,1 +1,222 @@
-[["8/23/2025","Saturday","10:00 AM","Gabriel Ozonuwe","20 Classes","Vegas","Signed in","Yes","238865"],["8/20/2025","Wednesday","7:30 AM","Craig Lowery","20 Classes","HYROX Signature Teaser","Signed in","Yes","238865"],["8/17/2025","Sunday","9:00 AM","Luis Sandoval","20 Classes","Wyvern","Signed in","Yes","238865"],["8/10/2025","Sunday","8:00 AM","Luis Sandoval","20 Classes","Angry Bird","Signed in","Yes","238865"],["8/9/2025","Saturday","8:45 AM","Jen Nordensvan","20 Classes","West Hollywood","Signed in","Yes","238865"],["8/2/2025","Saturday","7:30 AM","Gabriel Ozonuwe","20 Classes","West Hollywood","Signed in","Yes","238865"],["7/30/2025","Wednesday","7:30 AM","Craig Lowery","20 Classes","HYROX Signature Teaser","Signed in","Yes","238865"],["7/26/2025","Saturday","7:30 AM","Gabriel Ozonuwe","20 Classes","West Hollywood","Signed in","Yes","238865"],["7/25/2025","Friday","7:30 AM","Gabriel Ozonuwe","20 Classes","Crossfire","Signed in","Yes","238865"],["7/19/2025","Saturday","10:00 AM","Gabriel Ozonuwe","20 Classes","West Hollywood","Signed in","Yes","238865"],["6/28/2025","Saturday","7:30 AM","Gabriel Ozonuwe","20 Classes","High Rise","Signed in","Yes","238865"],["6/23/2025","Monday","6:00 PM","Gabriel Ozonuwe","20 Classes","Redline","Signed in","Yes","238865"],["6/19/2025","Thursday","9:15 AM","Hannah Sangillo","20 Classes","Pinnacle","Signed in","Yes","238865"],["6/14/2025","Saturday","8:45 AM","Jen Nordensvan","20 Classes","High Rise","Signed in","Yes","238865"],["6/11/2025","Wednesday","7:30 AM","Craig Lowery","20 Classes","Bears","Signed in","Yes","238865"],["6/7/2025","Saturday","8:45 AM","Jen Nordensvan","7 Day Trial (Local Residents Only)","The Riddler","Signed in","Yes","238531"],["6/6/2025","Friday","7:30 AM","Gabriel Ozonuwe","7 Day Trial (Local Residents Only)","The 9's","Signed in","Yes","238531"],["6/4/2025","Wednesday","7:30 AM","Craig Lowery","7 Day Trial (Local Residents Only)","22","Signed in","Yes","238531"],["6/2/2025","Monday","7:30 AM","Craig Lowery","7 Day Trial (Local Residents Only)","Marathon","Signed in","Yes","238531"],["6/1/2025","Sunday","10:00 AM","Luis Sandoval","7 Day Trial (Local Residents Only)","Renegade","Signed in","Yes","238531"]]
+[
+    [
+        "8/23/2025",
+        "Saturday",
+        "10:00 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "Vegas",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "8/20/2025",
+        "Wednesday",
+        "7:30 AM",
+        "Craig Lowery",
+        "20 Classes",
+        "HYROX Signature Teaser",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "8/17/2025",
+        "Sunday",
+        "9:00 AM",
+        "Luis Sandoval",
+        "20 Classes",
+        "Wyvern",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "8/10/2025",
+        "Sunday",
+        "8:00 AM",
+        "Luis Sandoval",
+        "20 Classes",
+        "Angry Bird",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "8/9/2025",
+        "Saturday",
+        "8:45 AM",
+        "Jen Nordensvan",
+        "20 Classes",
+        "West Hollywood",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "8/2/2025",
+        "Saturday",
+        "7:30 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "West Hollywood",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "7/30/2025",
+        "Wednesday",
+        "7:30 AM",
+        "Craig Lowery",
+        "20 Classes",
+        "HYROX Signature Teaser",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "7/26/2025",
+        "Saturday",
+        "7:30 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "West Hollywood",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "7/25/2025",
+        "Friday",
+        "7:30 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "Crossfire",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "7/19/2025",
+        "Saturday",
+        "10:00 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "West Hollywood",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/28/2025",
+        "Saturday",
+        "7:30 AM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "High Rise",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/23/2025",
+        "Monday",
+        "6:00 PM",
+        "Gabriel Ozonuwe",
+        "20 Classes",
+        "Redline",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/19/2025",
+        "Thursday",
+        "9:15 AM",
+        "Hannah Sangillo",
+        "20 Classes",
+        "Pinnacle",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/14/2025",
+        "Saturday",
+        "8:45 AM",
+        "Jen Nordensvan",
+        "20 Classes",
+        "High Rise",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/11/2025",
+        "Wednesday",
+        "7:30 AM",
+        "Craig Lowery",
+        "20 Classes",
+        "Bears",
+        "Signed in",
+        "Yes",
+        "238865"
+    ],
+    [
+        "6/7/2025",
+        "Saturday",
+        "8:45 AM",
+        "Jen Nordensvan",
+        "7 Day Trial (Local Residents Only)",
+        "The Riddler",
+        "Signed in",
+        "Yes",
+        "238531"
+    ],
+    [
+        "6/6/2025",
+        "Friday",
+        "7:30 AM",
+        "Gabriel Ozonuwe",
+        "7 Day Trial (Local Residents Only)",
+        "The 9's",
+        "Signed in",
+        "Yes",
+        "238531"
+    ],
+    [
+        "6/4/2025",
+        "Wednesday",
+        "7:30 AM",
+        "Craig Lowery",
+        "7 Day Trial (Local Residents Only)",
+        "22",
+        "Signed in",
+        "Yes",
+        "238531"
+    ],
+    [
+        "6/2/2025",
+        "Monday",
+        "7:30 AM",
+        "Craig Lowery",
+        "7 Day Trial (Local Residents Only)",
+        "Marathon",
+        "Signed in",
+        "Yes",
+        "238531"
+    ],
+    [
+        "6/1/2025",
+        "Sunday",
+        "10:00 AM",
+        "Luis Sandoval",
+        "7 Day Trial (Local Residents Only)",
+        "Renegade",
+        "Signed in",
+        "Yes",
+        "238531"
+    ]
+]
